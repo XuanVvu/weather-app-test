@@ -1,0 +1,22 @@
+.wrapper__forecast {
+  background-color: #202b3c;
+  border-radius: 10px;
+  .wrapper__forecast-inner {
+    padding: 10px 20px;
+    .forecast-title {
+      font-size: 18px !important;
+      text-transform: uppercase;
+    }
+
+    .forecast-slider {
+      .forecast-slider-item {
+        .forecast-slider-item-inner {
+          .time,
+          .temp_c {
+            color: #b6beca;
+          }
+        }
+      }
+    }
+  }
+}

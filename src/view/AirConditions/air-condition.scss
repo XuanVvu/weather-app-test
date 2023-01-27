@@ -1,0 +1,38 @@
+.wrapper-airCondition {
+  background-color: #202b3c;
+  border-radius: 10px;
+
+  .wrapper-airCondition-inner {
+    position: relative;
+    padding: 30px 20px;
+
+    .title {
+      text-transform: uppercase;
+      font-size: 18px;
+    }
+
+    .item {
+      &-title {
+        font-size: 15px;
+        color: #b6beca;
+      }
+
+      &-content {
+        font-size: 25px;
+        color: #b6beca;
+        font-weight: 600;
+      }
+    }
+
+    .see-more-btn {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      background: #b6beca;
+      outline: none;
+      border: none;
+      border-radius: 5px;
+      padding: 5px 15px;
+    }
+  }
+}
